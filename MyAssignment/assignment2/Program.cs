@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Assignment2
+namespace assignment2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double maxnum = uint.MaxValue;
+            uint maxnum = uint.MaxValue;
             ulong result = 0;
 
             for (uint i = 2; i < maxnum; i++)
@@ -39,16 +39,16 @@ namespace Assignment2
                 }
 
 
-               
 
 
-            }
+
             
 
 
 
 
-        }
 
+        }
+    }
     }
 }

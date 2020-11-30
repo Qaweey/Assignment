@@ -14,10 +14,10 @@ namespace Assignment3
             Console.WriteLine("write the word");
            
             string word = Console.ReadLine().ToLower();
-            //convert to array of character
+            
             
            
-            //To check if 's'and 'a' is present in the word
+            //To check if the word start with "Sa"
             if (word.StartsWith("sa"))
             {
                     char[] character = word.ToCharArray();
